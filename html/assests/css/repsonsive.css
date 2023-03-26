@@ -1,0 +1,301 @@
+@media only screen and (max-width:991px) {
+  /* 1st part */
+  .section-home {
+    height: 620px;
+  }
+  
+  .info {
+    width: 720px;
+    height: 100%;
+  }
+
+  .img-engineer {
+    height: 485px;
+  }
+
+  .about {
+    margin: 0;
+  }
+
+  .about-title {
+    font-size: 40px;
+    line-height: 40px;
+  }
+
+  /* 2nd part */
+  .strength {
+   flex-wrap: wrap;
+   width: 800px;
+   margin: 0 auto;
+  }
+  
+  .strength-item {
+    width: 355px;
+  }
+
+  /* 3rd part */
+  .section-reliable {
+    flex-direction: column-reverse;
+  }
+  
+  .section-reliable .img-engineer {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+
+  /* 4th part */
+  .reliable-img {
+    width: 100%;
+  }
+
+  .reliable-about {
+    width: 100%;
+  }
+
+  .repair-list {
+    flex-wrap: wrap;
+  }
+
+  .repair-item {
+    width: 40%;
+  }
+  /* 5th part */
+  .service-list {
+    flex-wrap: wrap;
+  }
+
+  .service-item {
+    width: 45%;
+  }
+  /* 6th part */
+  .section-inside {
+    flex-direction: column-reverse;
+  }
+
+  .inside-content{
+    width: 100%;
+  }
+
+  .inside-title {
+    font-size: 40px;
+  }
+  
+  .inside-img {
+    width: 100%;
+  }
+
+  .inside-img-item {
+    width: 100%;
+    height: 100%;
+  }
+  /* 7th part */
+  .message-list {
+    flex-direction: column;
+  }
+
+  .message-item {
+    width: 100%;
+  }
+  /* 8th part */
+  .professional-list {
+    flex-wrap: wrap;
+  }
+
+  .professional-item {
+    width: 45%;
+    margin-bottom: 30px;
+  }
+  /* 9th part */
+  .section-expert {
+    flex-direction: column;
+  }
+
+  .expert-content {
+    width: 100%;
+  }
+
+  .expert-img {
+    width: 100%;
+    object-fit: cover;
+    margin: 0;
+  }
+  /* 10th part */
+  .contact-item {
+    width: 40%;
+  }
+  /* 11th part */
+  
+}
+
+@media only screen and (max-width:767px) {
+  /* 1st part */
+
+  .section-home {
+    height: 850px;
+    background-position: 50% 50%;
+  }
+
+  .info {
+    flex-direction: column-reverse;
+  }
+
+  .about {
+    width: 500px;
+    margin: 0 auto 50px;
+  }
+  
+  /* 2nd part */
+  .reason-title {
+    width: 500px;
+    margin: 0 auto 40px;
+  }
+
+  .reason-desc {
+    width: 560px;
+    margin: 0 auto 40px;
+  }
+
+  .strength {
+    width: 500px;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .strength-item {
+    width: 500px;
+  }
+
+  /* 3rd part */
+  /* 4th part */
+  .repair-list {
+    flex-direction: column;
+  }
+  .repair-item {
+    width: 100%;
+  }
+  /* 5th part */
+  .service-item {
+    width: 100%;
+  }
+  /* 6th part */
+  .inside-title {
+    font-size: 30px;
+    margin-left: 50px;
+  }
+
+  .inside-desc {
+  margin-left: 50px;}
+
+  .source-s6 {
+    margin-left: 50px;
+  }
+
+  .inside-button {
+    margin-left: 50px;
+  }
+  /* 7th part */
+  .message-title {
+    text-align: center;
+  }
+
+  .message-desc {
+    text-align: center  ;
+  }
+
+  .message-button {
+    margin-left: 150px;
+  }
+  /* 8th part */
+  .professional-item {
+    width: 100%;
+  }
+  /* 9th part */
+
+  /* 10th part */
+  .contact-item {
+    width: 60%;
+  }
+  /* 11th part */
+}
+
+
+@media only screen and (max-width:575px) {
+  /* 1st part */
+  .nav {
+    margin: 30px 20px;
+  }
+
+  .info {
+    width: 300px;
+  }
+
+  .about {
+    width: 300px;
+    margin: 0 auto;
+  }
+
+  /* 2nd part */
+  .reason-title {
+    font-size: 30px;
+    font-weight: 300;
+    width: 300px;
+    margin: 0 auto 40px;
+  }
+
+  .reason-desc {
+    width: 300px;
+    margin: 0 auto 40px;
+  }
+
+  .strength {
+    max-width: 800px;
+  }
+  
+  .strength-item {
+    width: 60%;
+    margin: 10px auto;
+  }
+  /* 3rd part */
+  .section-reliable .about-title {
+    font-size: 25px;
+  }
+
+  .category-list {
+    flex-direction: cl;
+  }
+  /* 4th part */
+  .repair-heading {
+    text-align: center;
+    font-size: 30px;
+  }
+  
+
+  /* 5th part */
+  .service-heading {
+    font-size: 30px;
+  }
+  .service-item {
+    width: 100%;
+  }
+  /* 6th part */
+  /* 7th part */
+  .message-heading {
+    font-size: 30px;
+  }
+
+  .message-button {
+    margin-left: 70px;
+  }
+  /* 8th part */
+
+  .professional-heading {
+    font-size: 30px;
+  }
+  /* 9th part */
+  /* 10th part */
+  .contact-item {
+    width: 100%;
+  }
+  /* 11th part */
+}
