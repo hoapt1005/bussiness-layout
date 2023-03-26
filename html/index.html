@@ -10,22 +10,34 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web:200,200i,300,300i,400,400i,600,600i,700,700i,900|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
   <link rel="stylesheet" href="./assests/css/style.css">
+  <link rel="stylesheet" href="./assests/css/repsonsive.css">
   <title>Nice Page 1</title>
 </head>
 
 <body>
   <section id="main">
+    
     <!-- 1st part -->
-    <section class="section-home">
+    <section class="section-home fade-in">
+      <section class="overlay">
+        <section class="wrap"></section>
+  
+        <section class="sidebar">
+          <section class="sidebar-icon">
+            <i class="sidebar-close fa-solid fa-xmark"></i>
+          </section>
+          <p class="sidebar-text">Home</p>
+        </section>
+      </section>
       <section class="nav">
         <div class="logo">
-          <a href="#">
+          <a href="javascript:void(0)">
             <img class="logo-img" src="./assests/img/logo.png" alt="logo">
           </a>
         </div>
 
         <div class="menu">
-          <a class="menu-img" href="">
+          <a class="menu-img" href="javascript:void(0)">
             <i class="fa-solid fa-bars"></i>
           </a>
         </div>
@@ -93,11 +105,11 @@
     <!-- end 2nd part -->
     <!-- 3rd part -->
     <section class="section-reliable">
-        <div class="info-img">
+        <div class="reliable-img">
           <img class="img-engineer" src="./assests/img/s3-1.jpg" alt="engineer">
         </div>
   
-        <article class="about">
+        <article class="reliable-about">
           <h2 class="about-title">Reliable, Trusted, and Professional Services</h2>
           <p class="about-desc">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
           <article class="category">
@@ -403,6 +415,22 @@
     </footer>
     <!-- end 11th part -->
   </section>
+
+  <!-- <script>
+    const overlay = document.getElementsByClassName('overlay')
+    const menuBtn = document.querySelector('menu')
+
+    function showMenu () {
+      overlay.classList.add('overlay-toggle')
+    }
+
+    menuBtn.addEventListener('click', console.log(1))
+    
+
+
+  </script> -->
+  <script src="./assests/js/index.js"></script>
+
 </body>
 
 </html>
